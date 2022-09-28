@@ -1,0 +1,157 @@
+header {
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+.navbar {
+  height: 100px;
+}
+.navbar .nav-link {
+  padding: 0.5em 1.5em;
+  color: grey;
+}
+.hero {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.hero-content {
+  height: 500px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-started-input {
+  width: 60%;
+  border-radius: 3px;
+  padding: 10px;
+}
+.get-started-button {
+  border-radius: 3px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border: hidden;
+  width: 30%;
+  margin-left: 10px;
+  padding: 11px;
+  font-weight: 400;
+}
+.bg-curve-img {
+  width: 100%;
+}
+.blog {
+  background-color: hsl(240, 75%, 98%);
+}
+.blog .heading {
+  margin-bottom: 30px;
+}
+.blog .paragraph {
+  width: 65%;
+}
+.blog .how-works {
+  color: hsl(170, 45%, 43%);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: larger;
+  margin-bottom: 40px;
+}
+.blog .how-works img {
+  height: 20px;
+}
+.blog .blog-card {
+  width: 60%;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.blog .blog-card img {
+  margin-bottom: 10px;
+}
+.blog .blog-card .pulisher {
+  display: flex;
+  align-items: center;
+}
+.blog .blog-card .pulisher img {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 10px;
+}
+.blog .blog-card .pulisher .user-details h6,
+.blog .blog-card .pulisher .user-details p {
+  margin-bottom: 0;
+}
+.subscription {
+  background-color: hsl(238, 22%, 44%);
+  height: 280px;
+  display: flex;
+  align-items: center;
+}
+.subscription .subscription-content {
+  width: 75%;
+  color: white;
+}
+.subscription .subscription-content h2 {
+  margin-bottom: 25px;
+}
+.subscription .subscription-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subscription .subscription-form .subscription-form-input {
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  border-style: none;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.subscription .subscription-form .subscription-form-button {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  width: 50%;
+  border-radius: 3px;
+  padding: 10px;
+  border-style: hidden;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+footer .top {
+  height: 350px;
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+footer .top .brand-logo {
+  margin-bottom: 20px;
+}
+footer .top .contact-links img {
+  margin-right: 10px;
+}
+footer .top .links-1 .list,
+footer .top .links-2 .list {
+  list-style: none;
+  width: fit-content;
+  margin: 0 auto;
+}
+footer .top .links-1 .list li,
+footer .top .links-2 .list li {
+  margin-bottom: 20px;
+}
+footer .top .social-links {
+  color: white;
+}
+
+footer .bottom .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .bottom .attribution a {
+  color: hsl(228, 45%, 44%);
+}
