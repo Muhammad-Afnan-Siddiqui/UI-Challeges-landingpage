@@ -9,6 +9,9 @@ header {
   height: 175px;
   font-family: 'Raleway';
 }
+.nav {
+  justify-content: flex-end;
+}
 .navbar .nav-link {
   padding: 0.5em 3.5em;
   color: black;
@@ -60,6 +63,9 @@ header {
 .bg-curve-img {
   width: 100%;
 }
+.curve-img-mob {
+  display: none;
+}
 .blog {
   background-color: hsl(240, 75%, 98%);
 }
@@ -89,6 +95,11 @@ header {
   border-radius: 10px;
   margin-bottom: 80px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.blog .blog-img {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .blog .blog-card img {
   margin-bottom: 10px;
@@ -214,11 +225,6 @@ footer .bottom .attribution a {
   .hero .hero-content {
     width: 85%;
   }
-  .blog .blog-img {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
 }
 @media screen and (max-width: 991px) {
   header .navbar .nav-link {
@@ -291,10 +297,27 @@ footer .bottom .attribution a {
   header .navbar .nav-link {
     padding: 0.5em 0.5em;
   }
+  .curve-img {
+    display: none;
+  }
+  .curve-img-mob {
+    display: block;
+  }
+  .bg-curve-img-mob {
+    width: 100%;
+  }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   header .navbar .nav-link {
     display: flex;
+    justify-content: space-between;
+  }
+  header .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  header .nav {
+    width: 100%;
     justify-content: space-between;
   }
 }
